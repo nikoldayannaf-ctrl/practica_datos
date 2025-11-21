@@ -24,7 +24,7 @@ def main():
         # Si elige agregar persona
         if opcion == "1":
             # Pedimos al usuario la información necesaria
-            nombre = input("Nombre: ")
+            nombre = input("Nombre   : ")
             apellido = input("Apellido: ")
             edad = input("Edad: ")
             documento = input("Documento: ")
