@@ -1,7 +1,7 @@
 # gestionar_personas.py
 from persona import Persona  # Importamos la clase Persona para poder crear instancias
 
-class GestorPersonas:# Este archivo contiene la clase GestorPersonas, que se encarga de administrar una lista de personas.
+class GestorPersonas  :# Este archivo contiene la clase GestorPersonas, que se encarga de administrar una lista de personas.
     def __init__(self):
         """
         Constructor de GestorPersonas.
