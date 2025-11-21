@@ -2,7 +2,7 @@
 # persona.py
 # En este archivo se define la clase Persona.Una Persona guarda información básica como nombre, apellido,edad, documento de identidad, correo y lugar donde vive.
 
-class Persona:
+class Persona  :
     def __init__(self, nombre, apellido, edad, documento, gmail, lugar_vive):
         """
         Constructor de la clase Persona.
