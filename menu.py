@@ -7,7 +7,7 @@
 
 from gestionpersonas import GestorPersonas   # Importamos la clase que gestiona las personas
 
-def main():
+def main()  :
     # Creamos una instancia del gestor, que se encargará de guardar y manejar las personas
     gestor = GestorPersonas()
 
@@ -45,7 +45,7 @@ def main():
 
         # Si escribe algo que no es válido
         else:
-            print("Opción no válida, intente nuevamente.\n")
+            print("Opción no válida, intente nuevamente.")
 
 # Punto de inicio del programa
 if __name__ == "__main__":
