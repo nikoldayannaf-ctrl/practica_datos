@@ -12,11 +12,14 @@ def main()  :
     gestor = GestorPersonas()
 
     # Bucle principal que mantiene el menú funcionando
+    
     while True:
-        print("--- Menú ---")
+        print(" Menú Principal ")
         print("1. Agregar persona")
         print("2. Mostrar personas")
-        print("3. Salir")
+        print("3. Eliminar persona")
+        print("4. Modificar persona")
+        print("5. Salir")
 
         # Solicitamos al usuario que elija una opción
         opcion = input("Seleccione una opcion: ")
@@ -38,10 +41,20 @@ def main()  :
         elif opcion == "2":
             gestor.mostrar_personas()
 
-        # Si elige salir
+          # Eliminar persona
         elif opcion == "3":
+            doc = input("Ingrese el documento de la persona a eliminar: ")
+            gestor.eliminar_persona(doc)
+
+        # Modificar persona
+        elif opcion == "4":
+            doc = input("Ingrese el documento de la persona a modificar: ")
+            gestor.modificar_persona(doc) 
+
+        # Salir
+        elif opcion == "5":
             print("Saliendo del programa...")
-            break   # Salimos del bucle y finalizamos el programa
+            break       
 
         # Si escribe algo que no es válido
         else:
